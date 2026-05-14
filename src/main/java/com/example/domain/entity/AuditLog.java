@@ -1,5 +1,6 @@
-package com.example.audit;
+package com.example.domain.entity;
 
+import com.example.domain.enums.AuditAction;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

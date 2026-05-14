@@ -1,6 +1,6 @@
 package com.example.mapper;
 
-import com.example.audit.AuditLog;
+import com.example.domain.entity.AuditLog;
 import com.example.dto.response.AuditLogResponse;
 import org.mapstruct.Mapper;
 
