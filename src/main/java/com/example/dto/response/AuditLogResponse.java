@@ -1,6 +1,6 @@
 package com.example.dto.response;
 
-import com.example.audit.AuditAction;
+import com.example.domain.enums.AuditAction;
 
 import java.time.LocalDateTime;
 
@@ -10,4 +10,5 @@ public record AuditLogResponse(
         String actor,
         String details,
         LocalDateTime timestamp
-){}
+) {
+}

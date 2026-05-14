@@ -1,11 +1,12 @@
 package com.example.repository;
 
-import com.example.audit.AuditAction;
-import com.example.audit.AuditLog;
+import com.example.domain.entity.AuditLog;
+import com.example.domain.enums.AuditAction;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AuditLogRepository {
+public interface AuditLogRepository extends JpaRepository<AuditLog, Long> {
 
     Page<AuditLog> findByActor(String actor, Pageable pageable);
 

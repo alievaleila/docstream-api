@@ -1,4 +1,4 @@
-package com.example.audit;
+package com.example.domain.enums;
 
 public enum AuditAction {
     DOCUMENT_SUBMITTED,
